@@ -1,0 +1,28 @@
+body {
+    background-color: #DCDCDC;
+    width: 80%;
+    margin: 0 auto; 
+    font-family: 'Kavoon', serif; 
+}
+
+.logo_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.navBar {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #328CCD;
+    color: #328CCD;
+    font-weight: bold;
+}
+
+.name_animals{
+    cursor: pointer;
+    font-size: 32px;
+}
