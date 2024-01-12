@@ -26,3 +26,20 @@ body {
     cursor: pointer;
     font-size: 32px;
 }
+
+
+.catDiv {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.catImg{
+    width: 22rem;
+    height: 15rem;
+    border-radius: 1.2rem;
+}
+
+
