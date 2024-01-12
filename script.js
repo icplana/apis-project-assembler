@@ -10,6 +10,10 @@ function fetchDogsPictures(){
 
 }
 function showDogsPictures(data){
+
+    cleanCatsDiv()
+    cleanDogsDiv()
+    
     const dogsDiv = document.getElementById("divDogs");
     data.message.forEach((data)=>{
        const img = document.createElement("img");
@@ -18,6 +22,9 @@ function showDogsPictures(data){
        dogsDiv.appendChild(img);
     })
 }
+
+
+
 const h2Cats = document.querySelector('.cats')
 
 
